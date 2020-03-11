@@ -1,6 +1,7 @@
 module.exports = {
   title: "",
   description: "Documentation Website for myNode",
+  base: "/mynode-test-docs/",
   themeConfig: {
     // nav: [
     //   { text: "Getting Started", link: "/"},

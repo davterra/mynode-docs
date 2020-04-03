@@ -1,7 +1,7 @@
 module.exports = {
-  title: "",
-  description: "Documentation Website for myNode",
-  base: "/mynode-test-docs/",
+  title: "Mockup myNode Docs",
+  description: "Mockup Documentation Website for myNode",
+  base: "/mynode-docs-vuepress-mockup/",
   themeConfig: {
     // nav: [
     //   { text: "Getting Started", link: "/"},

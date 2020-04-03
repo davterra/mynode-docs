@@ -45,6 +45,13 @@ module.exports = {
           ["/setup-base-images/setup_base_image_other", 'Other'],
         ]
       },
+      {
+        collapsable: true,
+        title: "Remote Access — VPN",
+        children: [
+          ["/remote-access-vpn/remote-vpn", 'Remote Access Via VPN'],
+        ]
+      },
     ]
   }
 }

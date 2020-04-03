@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Mockup myNode Docs",
+  title: "Mockup Docs",
   description: "Mockup Documentation Website for myNode",
   base: "/mynode-docs-vuepress-mockup/",
   themeConfig: {

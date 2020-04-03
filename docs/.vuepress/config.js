@@ -18,40 +18,20 @@ module.exports = {
         collapsable: false,
         title: "Getting Started",
         children: [
-          ["/getting-started/page0", 'Introduction'],
-          ["/getting-started/page1", 'Getting Started']
+          ["/intro/introduction", 'Introduction'],
+          ["/intro/getting-started", 'Getting Started']
         ]
       },
       {
         collapsable: true,
-        title: "Device",
+        title: "Setup Base Images",
         children: [
-          ["/device/page2", 'Upgrading Your Device'],
-          ["/device/page3", 'Changing your Password']
-        ]
-      },
-      {
-        collapsable: true,
-        title: "Bitcoin",
-        children: [
-          ["/bitcoin/page4", 'Viewing Bitcoin Status'],
-          ["/bitcoin/page5", 'Using Electrum Wallets']
-        ]
-      },
-      {
-        collapsable: true,
-        title: "Lightning",
-        children: [
-          ["/lightning/page6", 'Creating a Lightning Wallet'],
-          ["/lightning/page7", 'Using LND Connect']
-        ]
-      },
-      {
-        collapsable: true,
-        title: "Remote Access",
-        children: [
-          ["/remote-access/page8", "Remote Access via VPN"],
-          ["/remote-access/page9", 'Setup your Device for Tor Access']
+          ["/setup-base-images/setup_base_image_raspi4", 'Raspberry Pi 4'],
+          ["/setup-base-images/setup_base_image_raspi3", 'Raspberry Pi 3'],
+          ["/setup-base-images/setup_base_image_rockpro64", 'RockPro64'],
+          ["/setup-base-images/setup_base_image_rock64", 'Rock64'],
+          ["/setup-base-images/setup_base_image_debian", 'Debian'],
+          ["/setup-base-images/setup_base_image_other", 'Other']
         ]
       }
     ]

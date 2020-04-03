@@ -47,6 +47,16 @@ module.exports = {
       },
       {
         collapsable: true,
+        title: "Bitcoin",
+        children: [
+          ["/bitcoin/bitcoin-status", 'Check Bitcoin Status'],
+          ["/bitcoin/electrum", 'Using Electrum'],
+          ["/bitcoin/electrum-remote-access", 'Remote Electrum Access'],
+          ["/bitcoin/independent-sync", 'Independently Sync Blockchain'],
+        ]
+      },
+      {
+        collapsable: true,
         title: "Remote Access — VPN",
         children: [
           ["/remote-access-vpn/remote-vpn", 'Remote Access Via VPN'],

@@ -19,7 +19,18 @@ module.exports = {
         title: "Getting Started",
         children: [
           ["/intro/introduction", 'Introduction'],
-          ["/intro/getting-started", 'Getting Started']
+          ["/intro/getting-started", 'Getting Started'],
+        ]
+      },
+      {
+        collapsable: true,
+        title: "Device",
+        children: [
+          ["/device/changing-password", 'Change Your Password'],
+          ["/device/existing-node", 'Using Data from Existing Node'],
+          ["/device/upgrading-device", 'Upgrading your Device'],
+          ["/device/customize-config", 'Customize your Configurations'],
+          ["/device/ssh", 'SSH Key Authentication'],
         ]
       },
       {
@@ -31,9 +42,9 @@ module.exports = {
           ["/setup-base-images/setup_base_image_rockpro64", 'RockPro64'],
           ["/setup-base-images/setup_base_image_rock64", 'Rock64'],
           ["/setup-base-images/setup_base_image_debian", 'Debian'],
-          ["/setup-base-images/setup_base_image_other", 'Other']
+          ["/setup-base-images/setup_base_image_other", 'Other'],
         ]
-      }
+      },
     ]
   }
 }

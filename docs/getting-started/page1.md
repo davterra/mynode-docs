@@ -24,11 +24,11 @@ You will be prompted to enter your product key. If you want to use the Community
 
 The first stage is for the device to run QuickSync which downloads a pre-validated copy of the blockchain so you can get started faster! This process may take up to a couple days depending on your device. The myNode home page will tell you the current status. Once QuickSync has completed, the device will automatically sync with the Bitcoin network.
 
-![main page](/mynode-test-docs/images/getting-started/gs1.png)
+![main page](/mynode-docs-vuepress-mockup/images/getting-started/gs1.png)
 
 Your myNode is now ready and you will see the main myNode home page!
 
-![main page](/mynode-test-docs/images/getting-started/gs2.png)
+![main page](/mynode-docs-vuepress-mockup/images/getting-started/gs2.png)
 
 You can also connect to your device via SSH if you are familiar with Linux. You can connect using the device IP or hostname.
 

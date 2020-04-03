@@ -23,7 +23,7 @@ module.exports = {
         ]
       },
       {
-        collapsable: false,
+        collapsable: true,
         title: "Device",
         children: [
           ["/device/page2", 'Upgrading Your Device'],
@@ -31,7 +31,7 @@ module.exports = {
         ]
       },
       {
-        collapsable: false,
+        collapsable: true,
         title: "Bitcoin",
         children: [
           ["/bitcoin/page4", 'Viewing Bitcoin Status'],

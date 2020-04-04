@@ -35,6 +35,25 @@ module.exports = {
       },
       {
         collapsable: true,
+        title: "Bitcoin",
+        children: [
+          ["/bitcoin/bitcoin-status", 'Check Bitcoin Status'],
+          ["/bitcoin/electrum", 'Using Electrum'],
+          ["/bitcoin/electrum-remote-access", 'Remote Electrum Access'],
+          ["/bitcoin/independent-sync", 'Independently Sync Blockchain'],
+        ]
+      },
+      {
+        collapsable: true,
+        title: "Lightning",
+        children: [
+          ["/lightning/creating-lightning-wallet", 'Create a Lightning Wallet'],
+          ["/lightning/using-lnd-connect", 'Using LND Connect'],
+          ["/lightning/setting-lnd-alias", 'Setting your LND Alias'],
+        ]
+      },
+      {
+        collapsable: true,
         title: "Setup Base Images",
         children: [
           ["/setup-base-images/setup_base_image_raspi4", 'Raspberry Pi 4'],
@@ -43,16 +62,6 @@ module.exports = {
           ["/setup-base-images/setup_base_image_rock64", 'Rock64'],
           ["/setup-base-images/setup_base_image_debian", 'Debian'],
           ["/setup-base-images/setup_base_image_other", 'Other'],
-        ]
-      },
-      {
-        collapsable: true,
-        title: "Bitcoin",
-        children: [
-          ["/bitcoin/bitcoin-status", 'Check Bitcoin Status'],
-          ["/bitcoin/electrum", 'Using Electrum'],
-          ["/bitcoin/electrum-remote-access", 'Remote Electrum Access'],
-          ["/bitcoin/independent-sync", 'Independently Sync Blockchain'],
         ]
       },
       {

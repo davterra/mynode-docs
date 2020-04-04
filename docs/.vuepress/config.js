@@ -71,6 +71,13 @@ module.exports = {
           ["/remote-access-vpn/remote-vpn", 'Remote Access Via VPN'],
         ]
       },
+      {
+        collapsable: true,
+        title: "Debugging",
+        children: [
+          ["/debugging/stuck-copying-files", 'My Device Gets Stuck Copying Files'],
+        ]
+      },
     ]
   }
 }

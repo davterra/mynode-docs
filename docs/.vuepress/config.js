@@ -73,6 +73,16 @@ module.exports = {
       },
       {
         collapsable: true,
+        title: "Remote Access — Tor",
+        children: [
+          ["/remote-access-tor/setup-tor-access", 'Setup Your Device for Tor'],
+          ["/remote-access-tor/web-gui", 'Web GUI Via Tor'],
+          ["/remote-access-tor/remote-electrum-access", 'Remote Electrum Access'],
+          ["/remote-access-tor/zeus-wallet", 'Zeus Wallet via Tor'],
+        ]
+      },
+      {
+        collapsable: true,
         title: "Debugging",
         children: [
           ["/debugging/stuck-copying-files", 'My Device Gets Stuck Copying Files'],

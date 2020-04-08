@@ -20,7 +20,7 @@ Once the server has synced, you should see an Electrum Server status page simila
   </figure>
 </center>
 
-Connecting an Electrum Wallet to myNode via the GUI
+## Connecting an Electrum Wallet to myNode via the GUI
 
 At this point you can connect your Electrum light wallets to your myNode. On the PC version, click on the colored icon in the bottom right to open up server settings. Enter the IP address of your myNode with port 50002.
 

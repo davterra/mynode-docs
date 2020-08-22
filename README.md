@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/000195c2-d038-4841-b9ae-e87e60bc5f4c/deploy-status)](https://app.netlify.com/sites/gracious-turing-7c789f/deploys)
+
 # MyNode documentation
 
 Community-built documentation for [MyNode](https://mynodebtc.com/) - a neat way to run bitcoin and lightning node and many more apps.

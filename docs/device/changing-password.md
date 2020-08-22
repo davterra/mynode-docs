@@ -6,7 +6,7 @@ First, go to the settings page. Next, fill out your current password. If it has 
 
 <center>
   <figure>
-    <img src="/mynode-docs-vuepress-mockup/images/device/password.png" alt="password" style="width: 500px">                
+    <img src="/mynode-docs/images/device/password.png" alt="password" style="width: 500px">                
   </figure>
 </center>
 

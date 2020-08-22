@@ -4,7 +4,7 @@ Every Lightning node has a name that can be configured. By default, each myNode 
 
 <center>
   <figure>
-    <img src="/mynode-docs-vuepress-mockup/images/lightning/setting-lnd-alias-1.png" alt="myNode logo" style="width: 300px">                
+    <img src="/mynode-docs/images/lightning/setting-lnd-alias-1.png" alt="myNode logo" style="width: 300px">                
   </figure>
 </center>
 
@@ -12,6 +12,6 @@ After clicking on the gear icon, you will be presented with a popup that allows 
 
 <center>
   <figure>
-    <img src="/mynode-docs-vuepress-mockup/images/lightning/setting-lnd-alias-2.png" alt="myNode logo" style="width: 300px">                
+    <img src="/mynode-docs/images/lightning/setting-lnd-alias-2.png" alt="myNode logo" style="width: 300px">                
   </figure>
 </center>

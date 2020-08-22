@@ -8,7 +8,7 @@ To do this, you must access your myNode device via SSH and get access to the ter
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/device/config.png" alt="password" style="width: 500px">                
+    <img src="/images/device/config.png" alt="password" style="width: 500px">
   </figure>
 </center>
 

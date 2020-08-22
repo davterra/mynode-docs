@@ -1,6 +1,6 @@
 <center>
   <figure>
-    <img src="/mynode-docs/images/logo.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/logo.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 <br/>

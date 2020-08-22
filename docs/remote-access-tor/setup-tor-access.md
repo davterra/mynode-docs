@@ -26,7 +26,7 @@ On your Android device, download Orbot and enable it by Clicking the Start butto
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/remote-access-tor/setup-tor-access-1.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/remote-access-tor/setup-tor-access-1.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 
@@ -47,7 +47,7 @@ To find the proper Onion URL for a service, open the Tor information page on you
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/remote-access-tor/setup-tor-access-2.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/remote-access-tor/setup-tor-access-2.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 

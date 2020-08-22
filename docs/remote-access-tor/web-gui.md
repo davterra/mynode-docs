@@ -12,7 +12,7 @@ Next, click on the Tor Services link under the Tor app on the main user interfac
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/remote-access-tor/web-gui-1.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/remote-access-tor/web-gui-1.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 
@@ -22,7 +22,7 @@ Finally, open your Tor Browser app, copy the myNode Web URL, and paste it into t
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/remote-access-tor/web-gui-2.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/remote-access-tor/web-gui-2.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 

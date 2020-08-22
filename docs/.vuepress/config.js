@@ -1,7 +1,6 @@
 module.exports = {
   title: "MyNode Docs",
   description: "Documentation for myNode project",
-  base: "/mynode-docs/",
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],

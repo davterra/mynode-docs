@@ -10,7 +10,7 @@ To sync the blockchain yourself, the first step is to disable QuickSync. Go to t
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/bitcoin/independent-sync-1.png" alt="password" style="width: 500px">                
+    <img src="/images/bitcoin/independent-sync-1.png" alt="password" style="width: 500px">
   </figure>
 </center>
 
@@ -22,7 +22,7 @@ Next, reset the Blockchain via the settings page on the myNode GUI.
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/bitcoin/independent-sync-2.png" alt="password" style="width: 500px">                
+    <img src="/images/bitcoin/independent-sync-2.png" alt="password" style="width: 500px">
   </figure>
 </center>
 

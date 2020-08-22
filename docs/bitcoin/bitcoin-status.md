@@ -4,7 +4,7 @@ Bitcoin runs automatically when your myNode device starts. It can often be helpf
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/bitcoin/bitcoin-status-1.png" alt="" style="width: 400px">                
+    <img src="/images/bitcoin/bitcoin-status-1.png" alt="" style="width: 400px">
   </figure>
 </center>
 
@@ -12,6 +12,6 @@ On the Bitcoin page, you can see the current state of Bitcoin which includes rec
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/bitcoin/bitcoin-status-2.png" alt="" style="width: 400px">                
+    <img src="/images/bitcoin/bitcoin-status-2.png" alt="" style="width: 400px">
   </figure>
 </center>

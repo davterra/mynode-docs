@@ -8,7 +8,7 @@ Next, click on the "LND Connect" button and you will be prompted to enter your p
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/lightning/using-lnd-connect-1.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/lightning/using-lnd-connect-1.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 
@@ -16,7 +16,7 @@ Once on the LND connect page, you will see a QR code and a URL. These can be use
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/lightning/using-lnd-connect-2.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/lightning/using-lnd-connect-2.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 
@@ -26,6 +26,6 @@ For example, you can scan a LND Connect QR Code using the Pebble mobile wallet.
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/lightning/using-lnd-connect-3.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/lightning/using-lnd-connect-3.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>

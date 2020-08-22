@@ -6,7 +6,7 @@ On the next page, re-enter your seed phrase to verify your backup has been creat
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/lightning/creating-lightning-wallet-1.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/lightning/creating-lightning-wallet-1.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 <br/>
@@ -15,7 +15,7 @@ If your phrase was correct, you will be sent back to the main Lightning page and
 
 <center>
   <figure>
-    <img src="/mynode-docs/images/lightning/creating-lightning-wallet-2.png" alt="myNode logo" style="width: 300px">                
+    <img src="/images/lightning/creating-lightning-wallet-2.png" alt="myNode logo" style="width: 300px">
   </figure>
 </center>
 <br/>

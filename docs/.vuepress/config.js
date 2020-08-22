@@ -1,12 +1,18 @@
 module.exports = {
-  title: "Mockup Docs",
-  description: "Mockup Documentation Website for myNode",
-  base: "/mynode-docs-vuepress-mockup/",
+  title: "MyNode Docs",
+  description: "Documentation for myNode project",
+  base: "/mynode-docs/",
+  head: [
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+  ],
   themeConfig: {
-    // nav: [
-    //   { text: "Getting Started", link: "/"},
-    // ]
-    navbar: true,
+    repo: '',
+    editLinks: false,
+    docsDir: '',
+    editLinkText: '',
+    lastUpdated: false,
     nav: [
       { text: "GitHub", link: "https://github.com/mynodebtc/mynode"},
       { text: "Website", link: "https://www.mynodebtc.com/"}
@@ -89,5 +95,9 @@ module.exports = {
         ]
       },
     ]
-  }
+  },
+  plugins: [
+    '@vuepress/plugin-back-to-top',
+    '@vuepress/plugin-medium-zoom',
+  ]
 }

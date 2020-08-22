@@ -17,6 +17,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:thunderBiscuit/mynode-docs-vuepress-mockup.git master:gh-pages
+git push -f git@github.com:username/repo.git master:gh-pages
 
 cd -

@@ -38,7 +38,8 @@ module.exports = {
       {
         title: "Bitcoin",
         children: [
-          ["/bitcoin/bitcoin-status", 'Check Bitcoin Status'],
+          "/bitcoin/overview",
+          "/bitcoin/bitcoin-status",
           ["/bitcoin/independent-sync", 'Independently Sync Blockchain'],
           "/bitcoin/explorer",
           "/bitcoin/mempool"

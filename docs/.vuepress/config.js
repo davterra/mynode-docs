@@ -7,15 +7,15 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    repo: 'abhiShandy/mynode-docs',
+    repoLabel: 'Contribute!',
+    editLinks: true,
+    docsDir: 'docs',
     lastUpdated: false,
-    nav: [
-      { text: "GitHub", link: "https://github.com/mynodebtc/mynode"},
-      { text: "Website", link: "https://www.mynodebtc.com/"}
-    ],
+    // nav: [
+    //   { text: "GitHub", link: "https://github.com/mynodebtc/mynode"},
+    //   { text: "Website", link: "https://www.mynodebtc.com/"}
+    // ],
     logo: "/images/logo.png",
     sidebarDepth: 0,
     sidebar: [

@@ -30,7 +30,7 @@ yarn docs:dev
 - Add images to markdown pages using either
   - HTML: `<img>` tag with `src="/images/<SUBDIRECTORY>/<FILENAME>"`
   - Markdown: `![<ALT-TEXT>](/images/<SUBDIRECTORY>/<FILENAME>)`
-- Add links to the created pages on the sidebar by editing [docs/.vuepress/config.js](https://github.com/abhiShandy/mynode-docs/blob/master/docs/.vuepress/config.js)
+- Add links to the created pages on the navbar and/or sidebar by editing [docs/.vuepress/config.js](https://github.com/abhiShandy/mynode-docs/blob/master/docs/.vuepress/config.js). Read this [VuePress guide](https://vuepress.vuejs.org/theme/default-theme-config.html) to learn more.
 
 ### Minor changes
 

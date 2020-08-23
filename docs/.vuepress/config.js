@@ -7,10 +7,10 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    repo: 'abhiShandy/mynode-repo',
+    repoLabel: 'Contribute!',
+    editLinks: true,
+    docsDir: 'docs',
     lastUpdated: false,
     nav: [
       { text: "GitHub", link: "https://github.com/mynodebtc/mynode"},

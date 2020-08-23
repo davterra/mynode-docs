@@ -17,7 +17,6 @@ module.exports = {
     //   { text: "Website", link: "https://www.mynodebtc.com/"}
     // ],
     logo: "/images/logo.png",
-    sidebarDepth: 0,
     sidebar: [
       {
         collapsable: false,
@@ -28,69 +27,101 @@ module.exports = {
         ]
       },
       {
-        collapsable: true,
         title: "Device",
         children: [
           ["/device/changing-password", 'Change Your Password'],
           ["/device/existing-node", 'Using Data from Existing Node'],
           ["/device/upgrading-device", 'Upgrading your Device'],
-          ["/device/customize-config", 'Customize your Configurations'],
-          ["/device/ssh", 'SSH Key Authentication'],
         ]
       },
       {
-        collapsable: true,
         title: "Bitcoin",
         children: [
           ["/bitcoin/bitcoin-status", 'Check Bitcoin Status'],
-          ["/bitcoin/electrum", 'Using Electrum'],
-          ["/bitcoin/electrum-remote-access", 'Remote Electrum Access'],
           ["/bitcoin/independent-sync", 'Independently Sync Blockchain'],
+          "/bitcoin/explorer",
+          "/bitcoin/mempool"
         ]
       },
       {
-        collapsable: true,
         title: "Lightning",
         children: [
           ["/lightning/creating-lightning-wallet", 'Create a Lightning Wallet'],
-          ["/lightning/using-lnd-connect", 'Using LND Connect'],
           ["/lightning/setting-lnd-alias", 'Setting your LND Alias'],
+          ["/lightning/lnd-connect", 'LND Connect'],
+          '/lightning/lnd-hub',
+          '/lightning/rtl',
+          '/lightning/lnbits',
+          '/lightning/thunderhub'
         ]
       },
       {
-        collapsable: true,
-        title: "Setup Base Images",
+        title: "Electrum",
         children: [
-          ["/setup-base-images/setup_base_image_raspi4", 'Raspberry Pi 4'],
-          ["/setup-base-images/setup_base_image_raspi3", 'Raspberry Pi 3'],
-          ["/setup-base-images/setup_base_image_rockpro64", 'RockPro64'],
-          ["/setup-base-images/setup_base_image_rock64", 'Rock64'],
-          ["/setup-base-images/setup_base_image_debian", 'Debian'],
-          ["/setup-base-images/setup_base_image_other", 'Other'],
+          ["/electrum/electrum", 'Using Electrum'],
+          ["/electrum/electrum-remote-access", 'Remote Electrum Access'],
         ]
       },
       {
-        collapsable: true,
-        title: "Remote Access — VPN",
+        title: "Tor",
         children: [
-          ["/remote-access-vpn/remote-vpn", 'Remote Access Via VPN'],
+          ["/tor/setup-tor-access", 'Setup Your Device for Tor'],
+          ["/tor/web-gui", 'Web GUI Via Tor'],
+          ["/tor/remote-electrum-access", 'Remote Electrum Access'],
+          ["/tor/zeus-wallet", 'Zeus Wallet via Tor'],
         ]
       },
       {
-        collapsable: true,
-        title: "Remote Access — Tor",
+        title: "VPN",
         children: [
-          ["/remote-access-tor/setup-tor-access", 'Setup Your Device for Tor'],
-          ["/remote-access-tor/web-gui", 'Web GUI Via Tor'],
-          ["/remote-access-tor/remote-electrum-access", 'Remote Electrum Access'],
-          ["/remote-access-tor/zeus-wallet", 'Zeus Wallet via Tor'],
+          ["/vpn/remote-vpn", 'Remote Access Via VPN'],
         ]
       },
       {
-        collapsable: true,
-        title: "Debugging",
+        title: "BTCPay Server",
         children: [
-          ["/debugging/stuck-copying-files", 'My Device Gets Stuck Copying Files'],
+          "/btcpay-server/setup"
+        ]
+      },
+      {
+        title: "Multisig",
+        children: [
+          "/multisig/caravan",
+          "/multisig/specter",
+        ]
+      },
+      {
+        title: "Samourai",
+        children: [
+          "/samourai/dojo",
+          "/samourai/whirlpool",
+        ]
+      },
+      {
+        title: "Advanced",
+        children: [
+          ["/advanced/customize-config", 'Customize your Configurations'],
+          ["/advanced/ssh", 'SSH Key Authentication'],
+          "/advanced/netdata",
+          "/advanced/glances",
+          "/advanced/webssh",
+          {
+            title: "Setup Base Images",
+            children: [
+              ["/advanced/setup-base-images/setup_base_image_raspi4", 'Raspberry Pi 4'],
+              ["/advanced/setup-base-images/setup_base_image_raspi3", 'Raspberry Pi 3'],
+              ["/advanced/setup-base-images/setup_base_image_rockpro64", 'RockPro64'],
+              ["/advanced/setup-base-images/setup_base_image_rock64", 'Rock64'],
+              ["/advanced/setup-base-images/setup_base_image_debian", 'Debian'],
+              ["/advanced/setup-base-images/setup_base_image_other", 'Other'],
+            ]
+          },
+        ]
+      },
+      {
+        title: "Troubleshooting",
+        children: [
+          ["/troubleshooting/stuck-copying-files", 'My Device Gets Stuck Copying Files'],
         ]
       },
     ]
